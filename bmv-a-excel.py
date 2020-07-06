@@ -9,13 +9,11 @@ import xlsxwriter
 
 d_links = {}
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}
-
 def descarga_links():
     print("Descargado desde web lista de links... ", end="")
     url = "https://www.bmv.com.mx/es/emisoras/archivos-estadar-xbrl"
     
-    respuesta = requests.get(url, headers=headers)
+    respuesta = requests.get(url)
     sopadecoditos = bs(respuesta.content, "html.parser")
     tabla_zips = sopadecoditos.find("tbody").findAll("tr")
 
@@ -140,7 +138,7 @@ def Descargar(recarga):
                 trimestre = "1"
             else:
                 trimestre = "ND"
-                id_clave_pizarra = "mx-ifrs-ics_ClaveCotizacion"
+            id_clave_pizarra = "mx-ifrs-ics_ClaveCotizacion"
             id_nombre_emisora = "ifrs_NameOfReportingEntityOrOtherMeansOfIdentification"
             id_efectivo = "ifrs_CashAndCashEquivalents"
         else:
