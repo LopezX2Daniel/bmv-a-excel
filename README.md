@@ -13,7 +13,7 @@ El script utiliza las siguientes librerías: os, subprocess, requests, json, io,
 
 **Funcionamiento**
 
-Para ejecutar, se tiene dos oppciones:
+Para ejecutar, se tiene dos opciones:
 
 ```
 Descargar(0)
