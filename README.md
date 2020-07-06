@@ -1,10 +1,17 @@
 # bmv-a-excel
 
+
+
 Los Estados Financieros que la BMV ofrece para su consulta estan en formato XBRL (https://www.bmv.com.mx/es/emisoras/archivos-estadar-xbrl), sin embargo no es posible realizar análisis financiero de forma directa dada la imposibilidad de descargar la informacion a excel u otro formato más flexible para su manipulación. El objetivo de este script es que los pequeños inversionistas, estudiantes, profesores o interesados en el mundo financiero en México puedan acceder de forma directa a los estados financieros de empresas que cotizan en la BMV.
 
-**Requisitos:**
+** **
+**Requisitos**
 
-El scrip utiliza las siguientes librerías: os, subprocess, requests, json, io, zipfile, BeautifulSoup y xlsxwriter.
+El script utiliza las siguientes librerías: os, subprocess, requests, json, io, zipfile, BeautifulSoup y xlsxwriter.
+
+** **
+
+**Funcionamiento**
 
 Una vez ejecutado, se tendrán dos opciones para descargar estados financieros.
 
