@@ -9,7 +9,8 @@ Los Estados Financieros que la BMV ofrece para su consulta están en formato XBR
 
 El script utiliza las siguientes librerías: os, subprocess, requests, json, io, zipfile, BeautifulSoup y xlsxwriter.
 
-** **
+
+
 **Funcionamiento**
 
 Para ejecutar, se tiene dos oppciones:
