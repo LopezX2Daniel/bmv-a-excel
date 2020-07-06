@@ -22,9 +22,9 @@ Descargar(0)
 Descargar(1)
 ```
 
-La unica diferencia entre ambos es que Descargar(0) permite descargar una sola vez la lista de links, se guardará como variable y permite evitar la conexion a la pagina de la BMV cada vez que se vuelva a descargar estados financieros de otra empresa. Mientras que Descargar(1) se conecta cada vez y actualiza la lista de links, de forma que siempre tendrá la version mas actualizada. Generalmente para la mayoria de los usuariso utilizar  Descargar(0) es más útil.
+La única diferencia entre ambos es que **Descargar(0)*** permite descargar una sola vez la lista de links, se guardará como variable y evita conectarse a la pagina de la BMV cada vez que se vuelva a descargar estados financieros. Mientras que ***Descargar(1)*** se conecta y actualiza la lista de links cada vez que se ejecute, de forma que siempre tendrá la versión más actualizada. Generalmente, la mayoría de los usuarios les será util usar **Descargar(0)***.
 
-Al ejecutar, se deberá escribir el nombre de la emisora sin serie.
+Después, se deberá escribir el nombre de la emisora (sin serie). Es indiferente si se hace en mayúsculas o minúsculas.
 
 ```
 Descargado desde web lista de links... ¡Hecho!
@@ -33,7 +33,7 @@ Preparando la información... ¡Hecho!
 Escoger emisora:
 ```
 
-Una vez escogida, se mostrará el listado de fechas de estados financieros que se tienen disponibles en la BMV. El perido a selecionar es el numero que se encuentra en la parte izquieda o derecha.
+Una vez escogida, se mostrará el listado de fechas de estados financieros que se tiene disponible en la BMV. El periodo a selecionar es el número que se encuentra en la parte izquieda o derecha.
 
 ```
 ____________________________________________________________
@@ -73,9 +73,9 @@ Archivo creado. Abriendo excel: 'EstadosFinancieros_PE&OLES_2020_1T.xlsx'
 
 El nombre del archivo de Excel esta compuesto de "EstadosFinancieros_" "Emisora" "Año" "Trimestre".xlsx
 
-Dado que la BMV solo tiene estados financieros trimestrales disponibles, si se desea descargar anuales de deberá descargar el 4to trimestre de cada emisora.
+Dado que la BMV solo tiene estados financieros trimestrales disponibles, si se desea descargar anuales, de deberá descargar el 4to trimestre de cada emisora de cada año.
 
-Espero que este script sea de utilizar y ayude a difundir más nuestro mercado bursátil en México.
+Espero que este script sea de utilidad y ayude a difundir más nuestro mercado bursátil en México.
 
 @author: Daniel Eduardo López López
 @email: e.lopezlopezdaniel@protonmail.com
