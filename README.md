@@ -22,7 +22,8 @@ Descargar(0)
 Descargar(1)
 ```
 
-La única diferencia entre ambos es que ***Descargar(0)*** permite descargar una sola vez la lista de links, se guardará como variable y evita conectarse a la pagina de la BMV cada vez que se vuelva a descargar estados financieros. Mientras que ***Descargar(1)*** se conecta y actualiza la lista de links cada vez que se ejecute, de forma que siempre tendrá la versión más actualizada. Generalmente, la mayoría de los usuarios les será util usar ***Descargar(0)***.
+La única diferencia entre ambos es que ***Descargar(0)*** permite descargar una sola vez la lista de links, se guardará como variable y evita conectarse a la pagina de la BMV cada vez que se vuelva a descargar estados financieros. Mientras que ***Descargar(1)*** se conecta y actualiza la lista de links cada vez que se ejecute, de forma que siempre tendrá la versión más actualizada. 
+Generalmente, la mayoría de los usuarios les será util usar ***Descargar(0)***.
 
 Después, se deberá escribir el nombre de la emisora (sin serie). Es indiferente si se hace en mayúsculas o minúsculas.
 
