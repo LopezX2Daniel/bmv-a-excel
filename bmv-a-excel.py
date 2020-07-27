@@ -243,7 +243,6 @@ def Descargar(recarga):
             centrado = negritas_centrado.set_align('center')
 
             cashbaby = workbook.add_format({'num_format':'#,##0.00;[Red](#,##0.00)'})
-            nigga_cashbaby = workbook.add_format({'num_format':'#,##0.00;[Red](#,##0.00)','bold':True})
 
             columna_numeros = 1
         elif ronda == 1:
