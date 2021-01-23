@@ -9,11 +9,13 @@ import xlsxwriter
 
 d_links = {}
 
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}
+
 def descarga_links():
     print("Descargado desde web lista de links... ", end="")
     url = "https://www.bmv.com.mx/es/emisoras/archivos-estadar-xbrl"
     
-    respuesta = requests.get(url)
+    respuesta = requests.get(url, headers=headers)
     sopadecoditos = bs(respuesta.content, "html.parser")
     tabla_zips = sopadecoditos.find("tbody").findAll("tr")
 
@@ -84,7 +86,7 @@ def Descargar(recarga):
             print("\n")
             continue
 
-    print("Descargando y procesando Estados Financieros a Excel... ")
+    print("Descargando información...", end="")
 
     if str(url[-3:]).lower() == "zip":
         try:
@@ -104,6 +106,9 @@ def Descargar(recarga):
         final = json.loads(soupadecoditos.prettify())
     else:
         raise ValueError(f"La URL '{url}' no termina en .zip o .json, verificar lista de links")
+
+    print("¡Hecho!")
+    print("Procesando Estados Financieros a Excel...", end="")
 
     for hechos in final["HechosPorIdConcepto"].keys():
         if "DateOfEndOfReportingPeriod" in hechos:
@@ -293,6 +298,8 @@ def Descargar(recarga):
     worksheet_flujo.set_column('B:C',25)
 
     workbook.close()
+
+    print("¡Hecho!")
 
     try:
         ruta_excel = (f"{os.path.abspath('')}\\{nombre_archivo}")
