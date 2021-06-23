@@ -2,7 +2,7 @@
 
 
 
-Los Estados Financieros que la BMV ofrece para su consulta están en formato XBRL (https://www.bmv.com.mx/es/emisoras/archivos-estadar-xbrl) sin embargo, no es posible realizar análisis financiero de forma directa dada la imposibilidad de descargar la informacion a excel u otro formato más flexible para su manipulación. El objetivo de este script es que los pequeños inversionistas, estudiantes, profesores o interesados en el mundo financiero en México puedan acceder de forma directa a los estados financieros de empresas que cotizan en la BMV.
+Los Estados Financieros que la Bolsa Mexicana de Valores ofrece para su consulta están en formato XBRL (https://www.bmv.com.mx/es/emisoras/archivos-estadar-xbrl) sin embargo, no es posible realizar análisis financiero de forma directa dada la imposibilidad de descargar la informacion a excel u otro formato más flexible para su manipulación. El objetivo de este script es que los pequeños inversionistas, estudiantes, profesores o interesados en el mundo financiero en México puedan acceder de forma directa a los estados financieros de empresas que cotizan en la BMV.
 
 ** **
 **Requisitos**
