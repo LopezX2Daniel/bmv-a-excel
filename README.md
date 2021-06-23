@@ -20,7 +20,7 @@ json
 io
 zipfile
 BeautifulSoup
-xlsxwriter.
+xlsxwriter
 ```
 
 
@@ -43,13 +43,12 @@ Después, se deberá escribir el nombre de la emisora (sin serie). Es indiferent
 ```
 Descargado desde web lista de links... ¡Hecho!
 Preparando la información... ¡Hecho!
-
-Escoger emisora:
 ```
 
 Una vez escogida, se mostrará el listado de fechas de estados financieros que se tiene disponible en la BMV. El periodo a selecionar es el número que se encuentra en la parte izquieda o derecha.
 
 ```
+Escoger emisora:
 ____________________________________________________________
 1#  Descargar Información Del Trimestre 1 Del Año 2020   #1
 2#  Descargar Información Del Trimestre 4 Del Año 2019   #2
