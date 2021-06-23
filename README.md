@@ -12,7 +12,7 @@ Sin embargo, no es posible realizar análisis financiero de forma directa dada l
 **Requisitos**
 
 El script utiliza las siguientes librerías:
-
+```
 os
 subprocess
 requests
@@ -21,7 +21,7 @@ io
 zipfile
 BeautifulSoup
 xlsxwriter.
-
+```
 
 
 **Funcionamiento**
